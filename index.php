@@ -1,6 +1,4 @@
 <?php
-include_once "config.php";
-
 $MySQLConnection = mysql_connect($servername, $username, $password);
     $MySQLSelectedDB = mysql_select_db($dbname, $MySQLConnection);
     mysql_query("SET $dbname utf8");
@@ -14,5 +12,4 @@ $MySQLConnection = mysql_connect($servername, $username, $password);
         }
         echo "<br>";
     }
-
 ?>
