@@ -12,7 +12,7 @@ $MySQLConnection = mysql_connect($servername, $username, $password);
     {
         foreach($Result as $k => $val)
         {
-            echo "Hello " . $val ", current build is " . $build_number;
+            echo "Hello " . $val . ", current build is " . $build_number;
         }
         echo "<br>";
     }
