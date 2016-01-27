@@ -2,7 +2,6 @@
 include_once "config/config.php";
 
 $build_number = file_get_contents('build_number.txt');
-echo $homepage;
 
 $MySQLConnection = mysql_connect($servername, $username, $password);
     $MySQLSelectedDB = mysql_select_db($dbname, $MySQLConnection);
